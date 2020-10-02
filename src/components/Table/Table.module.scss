@@ -1,0 +1,35 @@
+.wrapper {
+	max-width: 800px;
+	width: 100%;
+	margin: 20px auto 0;
+	border: 1px solid #ccc;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+}
+
+.wrapper-table {
+	overflow-y: scroll;
+	height: 314px;
+}
+
+.table {
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+
+.table-row {
+	display: table-row;
+}
+
+.table-cell {
+	display: table-cell;
+	width: 50%;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+
+	&--head {
+		font-weight: bold;
+		font-size: 30px;
+		padding-right: 20px;
+	}
+}
